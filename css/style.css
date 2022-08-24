@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+#copy {
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 0.5em;
+    margin-top: 40px;
+}
+
+#fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+button {
+    background-color: aquamarine;
+    padding: 10px;
+    width: 50%;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    color: #56595e;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 0.5em;
+}
+
+button:hover {
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+   font-size: 0.6em;
+    transition: 0.3s;
+}
+
+input, label {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+    border-bottom: 2px solid aquamarine;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: 50px;
+    color: rgb(18, 74, 78);
+    line-height: 30px;
+
+
+}
+
+input:focus {
+    background-color: aquamarine;
+    transition: 0.5s;
+}
+
+
+h1 {
+    margin-bottom: 15px;
+}
+
+a img {
+    width: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #56595e;
+}
+
+#face {
+    margin-right: 45px;
+}
+
+a img:hover {
+    cursor: pointer;
+
+}
+
+.inputBox {
+    padding: 10px;
+    width: 500px;
+}
+
+.e-senha {
+    text-decoration: none;
+    color:#56595e;
+    font-size: 0.6em;
+
+    letter-spacing: 2px;
+}
+
+#div-esenha {
+    margin: 20px;
+    text-align: right;
+    width: 95%;
+}
+
+.e-senha:hover{
+    color: #fff;
+    background-color: aquamarine;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+    
+}
+
+
+#div-conta{
+    
+}
